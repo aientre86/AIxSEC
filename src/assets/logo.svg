@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <!-- Shield Outline -->
+  <path d="M50 8 L85 22 V50 C85 70 50 92 50 92 C50 92 15 70 15 50 V22 Z" 
+        stroke="url(#shieldGrad)" stroke-width="4" fill="#0f172a" fill-opacity="0.85" />
+  
+  <!-- Neural / AI Circuit Nodes -->
+  <circle cx="50" cy="38" r="6" fill="url(#coreGrad)" />
+  <circle cx="34" cy="56" r="4.5" fill="#38bdf8" />
+  <circle cx="66" cy="56" r="4.5" fill="#38bdf8" />
+  <circle cx="50" cy="72" r="5" fill="#818cf8" />
+  
+  <!-- Circuit Pathways -->
+  <line x1="50" y1="38" x2="34" y2="56" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="2 1" />
+  <line x1="50" y1="38" x2="66" y2="56" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="2 1" />
+  <line x1="34" y1="56" x2="50" y2="72" stroke="#818cf8" stroke-width="2.5" stroke-dasharray="2 1" />
+  <line x1="66" y1="56" x2="50" y2="72" stroke="#818cf8" stroke-width="2.5" stroke-dasharray="2 1" />
+  <line x1="50" y1="38" x2="50" y2="72" stroke="#60a5fa" stroke-width="2" />
+</svg>
