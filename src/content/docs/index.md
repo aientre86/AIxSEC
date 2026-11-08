@@ -1,5 +1,5 @@
 ---
-title: "AI & AI Security Knowledge Hub"
+title: "AI & AI Security Resource Hub"
 description: "Executive overview and structured taxonomy of the 5-pillar AI security lifecycle framework."
 pillar: "OG"
 tags: ["Overview", "Framework", "Governance", "AI-Security"]
@@ -62,14 +62,4 @@ Explores active adversarial counter-measures: direct/indirect prompt injection d
 Dedicated to the post-exploitation and incident response phase: AI telemetry forensics, explainability-driven incident triage, non-deterministic audit logging, and systematic failure post-mortems.
 - **Featured Guide:** [AI Security Incident Triage & Playbook](/AIxSEC/05-in/ai-incident-triage-playbook/)
 
----
 
-## Programmatic Ingestion & Contributions
-
-Articles can be ingested automatically via the CLI utility:
-
-```bash
-python scripts/add_article.py --pillar PD --title "Indirect Prompt Injection via RAG" --tags "prompt-injection,rag,guardrails"
-```
-
-All content is strictly validated using Zod against frontmatter schemas and continuously deployed via GitHub Actions.
