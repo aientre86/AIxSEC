@@ -10,11 +10,11 @@ template: splash
 hero:
   tagline: "A unified, lifecycle-oriented defense architecture for Artificial Intelligence and Machine Learning systems."
   actions:
-    - text: "Explore Oversight & Governance"
+    - text: "Explore AI for Security Products (Non-Commercial)"
       link: /AIxSEC/01-og/ai-governance-frameworks/
       icon: right-arrow
       variant: primary
-    - text: "View Protection & Defense"
+    - text: "Explore Security for AI Resources"
       link: /AIxSEC/04-pd/prompt-injection-mitigation/
       icon: external
       variant: secondary
