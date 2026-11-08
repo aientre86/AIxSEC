@@ -1,6 +1,6 @@
 # AI & AI Security Resource Hub
 
-A knowledge hub on Security Automation, AI for Security, and Security for AI
+A resource hub on AI for Security, and Security for AI
 
 ---
 
