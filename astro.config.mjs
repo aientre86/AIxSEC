@@ -17,7 +17,7 @@ export default defineConfig({
       },
       description: 'Automation, AI for Security, and Security for AI.',
       social: {
-        github: 'https://github.com/aientre86/AIxEC',
+        github: 'https://github.com/aientre86/AIxSEC',
       },
       sidebar: [
         {

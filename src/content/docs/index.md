@@ -11,11 +11,11 @@ hero:
   tagline: "A unified, lifecycle-oriented defense architecture for Artificial Intelligence and Machine Learning systems."
   actions:
     - text: "Explore Oversight & Governance"
-      link: /ai-security-hub/01-og/ai-governance-frameworks/
+      link: /AIxSEC/01-og/ai-governance-frameworks/
       icon: right-arrow
       variant: primary
     - text: "View Protection & Defense"
-      link: /ai-security-hub/04-pd/prompt-injection-mitigation/
+      link: /AIxSEC/04-pd/prompt-injection-mitigation/
       icon: external
       variant: secondary
 ---
@@ -44,23 +44,23 @@ This knowledge hub organizes AI security domain expertise into **5 Core Pillars*
 
 #### 1. [OG] Oversight & Governance
 Focuses on enterprise accountability, regulatory adherence (EU AI Act, NIST AI RMF, ISO/IEC 42001), threat modeling methodologies, and ethical safety boundaries.
-- **Featured Guide:** [Enterprise AI Governance Frameworks](/ai-security-hub/01-og/ai-governance-frameworks/)
+- **Featured Guide:** [Enterprise AI Governance Frameworks](/AIxSEC/01-og/ai-governance-frameworks/)
 
 #### 2. [DD] Design & Development
 Encompasses the pre-deployment phase: data pipeline poisoning prevention, adversarial robustness, privacy-preserving machine learning (differential privacy, federated learning), and rigorous benchmark evaluations.
-- **Featured Guide:** [Adversarial Training & Robustness Fundamentals](/ai-security-hub/02-dd/adversarial-training-fundamentals/)
+- **Featured Guide:** [Adversarial Training & Robustness Fundamentals](/AIxSEC/02-dd/adversarial-training-fundamentals/)
 
 #### 3. [IO] Implementation & Operation
 Covers operational runtime infrastructure, MLOps/LLMOps pipeline security, API gateway controls, inference security, container sandboxing, and model supply chain security (SBOMs & weights verification).
-- **Featured Guide:** [Securing Enterprise LLMOps & API Gateways](/ai-security-hub/03-io/llmops-api-security/)
+- **Featured Guide:** [Securing Enterprise LLMOps & API Gateways](/AIxSEC/03-io/llmops-api-security/)
 
 #### 4. [PD] Protection & Defense
 Explores active adversarial counter-measures: direct/indirect prompt injection defenses, semantic guardrail deployment (e.g., NeMo Guardrails, Llama Guard), red teaming methodologies, and jailbreak prevention.
-- **Featured Guide:** [Multi-Layer Prompt Injection Mitigation](/ai-security-hub/04-pd/prompt-injection-mitigation/)
+- **Featured Guide:** [Multi-Layer Prompt Injection Mitigation](/AIxSEC/04-pd/prompt-injection-mitigation/)
 
 #### 5. [IN] Investigation
 Dedicated to the post-exploitation and incident response phase: AI telemetry forensics, explainability-driven incident triage, non-deterministic audit logging, and systematic failure post-mortems.
-- **Featured Guide:** [AI Security Incident Triage & Playbook](/ai-security-hub/05-in/ai-incident-triage-playbook/)
+- **Featured Guide:** [AI Security Incident Triage & Playbook](/AIxSEC/05-in/ai-incident-triage-playbook/)
 
 ---
 
