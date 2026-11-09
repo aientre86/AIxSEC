@@ -1,6 +1,16 @@
---------------------------------------------------------------------------------
-
-#### title: "Enterprise AI Planning & Governance Framework" description: "An operational roadmap for dependable AI adoption, secure SDLC, infrastructure lineage, and 7-step governance execution." pillar: "OG" tags: ["Governance", "AI-SDLC", "Dependable-AI", "AISPM", "Compliance"] threat_level: "High" date: 2026-11-09 draft: false
+﻿---
+title: "Enterprise AI Planning & Governance Framework"
+description: "An operational roadmap for dependable AI adoption, secure SDLC, infrastructure lineage, and 7-step governance execution."
+tags:
+  - "Governance"
+  - "AI-SDLC"
+  - "Dependable-AI"
+  - "AISPM"
+  - "Compliance"
+threat_level: "High"
+date: 2026-11-09
+draft: false
+---
 #### Overview
 Artificial Intelligence has transformed from experimental prototyping into core enterprise infrastructure. Integrating Generative AI and Agentic AI into operational workflows delivers immense efficiency gains, but it introduces non-deterministic, probabilistic risks that traditional IT controls cannot mitigate. Establishing a dependable AI deployment model requires aligning executive strategy, technical risk management, workforce enablement, and formal enterprise governance.
 
@@ -146,39 +156,39 @@ Organizations should implement AI governance through a structured, multi-phase e
 
 ##### Detailed Roadmap Breakdown
 
-1. **Step 1 — Assess Usage & Risk (Survey)**:
+1. **Step 1 â€” Assess Usage & Risk (Survey)**:
    * Catalog all internal tools, vendor integrations, shadow AI, and custom models in a centralized AI Asset Catalog.
    * Document business purpose, target user groups, data sensitivity levels, and existing technical controls.
    * *Deliverables*: AI Asset Inventory, Risk Assessment Report, and Remediation Plan.
 
-2. **Step 2 — Define Governance Objectives & Scope**:
+2. **Step 2 â€” Define Governance Objectives & Scope**:
    * Establish organizational and geographic boundaries for AI deployment, including vendor API usage.
    * Define measurable Key Performance Indicators (KPIs): policy compliance percentage, security incident frequency, audit finding closure rates, and workforce training completion rates.
    * *Deliverables*: AI Governance Charter and Executive Scope Specification.
 
-3. **Step 3 — Establish Governance Structure & Roles**:
+3. **Step 3 â€” Establish Governance Structure & Roles**:
    * Form a cross-functional AI Governance Committee comprising the CISO, CIO, Legal Counsel, Chief Data Officer, HR, and Business Unit Leaders.
    * Establish an operational RACI matrix defining who is Responsible, Accountable, Consulted, and Informed for model approvals, risk sign-offs, and incident escalations.
    * *Deliverables*: Committee Charter, Role Descriptions, and RACI Matrix.
 
-4. **Step 4 — Develop Policies & Technical Standards**:
+4. **Step 4 â€” Develop Policies & Technical Standards**:
    * Formulate core policies: Acceptable Use Policy (AUP), Data Handling Guidelines, AI Vendor Vetting Standards, Model Development Guidelines, and AI Incident Response Playbooks.
    * Align controls with international standards and regulatory frameworks: ISO 27001, ISO 27002, ISO/IEC 42001, NIST AI RMF 1.0, NIST SP 800-53, NIST SP 800-61, EU AI Act, GDPR, and CCPA.
    * *Deliverables*: Comprehensive AI Policy & Standards Suite.
 
-5. **Step 5 — Deploy Technical Enforcement Controls**:
+5. **Step 5 â€” Deploy Technical Enforcement Controls**:
    * Implement centralized AI Gateways and LLM Proxies to enforce rate limiting, prompt filtering, token auditing, and payload logging.
    * Deploy identity management (RBAC/ABAC) and Data Loss Prevention (DLP) to block unauthorized data egress.
    * Integrate gateway telemetry into Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) platforms.
    * *Deliverables*: Technical Controls Matrix and Gateways Architecture Documentation.
 
-6. **Step 6 — Train & Enable Organization (Culture)**:
+6. **Step 6 â€” Train & Enable Organization (Culture)**:
    * Roll out role-based training curricula; require mandatory certification prior to granting access to enterprise AI tools.
    * Provide a self-service guidance portal featuring pre-approved prompt templates, compliance guidelines, and FAQs.
    * Incorporate responsible AI practices into employee performance evaluations.
    * *Deliverables*: Training Curriculum, Self-Service Portal, and Enablement Roadmap.
 
-7. **Step 7 — Monitor, Measure & Continuously Improve**:
+7. **Step 7 â€” Monitor, Measure & Continuously Improve**:
    * Deploy real-time dashboards to audit model performance, prompt policy violations, and system alerts.
    * Establish feedback loops to incorporate lessons learned from security incidents into policy updates and technical guardrails.
    * Perform periodic program audits and report compliance posture and ROI to executive leadership.
