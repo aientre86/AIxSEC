@@ -1,7 +1,6 @@
----
+﻿---
 title: "Adversarial Training & Robustness Fundamentals"
 description: "Foundational techniques for hardening neural networks and embedding layers against adversarial perturbations and data poisoning."
-pillar: "DD"
 tags: ["Adversarial-Robustness", "Model-Hardening", "Data-Poisoning", "Evaluation"]
 threat_level: "High"
 date: 2026-03-31

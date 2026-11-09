@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { theme } from './sidebar.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,36 +20,12 @@ export default defineConfig({
       social: {
         github: 'https://github.com/aientre86/AIxSEC',
       },
+      // Sidebar is generated from folders — see sidebar.mjs. Just add .md files / folders.
       sidebar: [
-        {
-          label: 'Overview & Framework',
-          slug: 'index',
-        },
-        {
-          label: 'OG - Oversight & Governance',
-          collapsed: false,
-          autogenerate: { directory: '01-og' },
-        },
-        {
-          label: 'DD - Design & Development',
-          collapsed: false,
-          autogenerate: { directory: '02-dd' },
-        },
-        {
-          label: 'IO - Implementation & Operation',
-          collapsed: false,
-          autogenerate: { directory: '03-io' },
-        },
-        {
-          label: 'PD - Protection & Defense',
-          collapsed: false,
-          autogenerate: { directory: '04-pd' },
-        },
-        {
-          label: 'IN - Investigation',
-          collapsed: false,
-          autogenerate: { directory: '05-in' },
-        },
+        { label: 'Home', slug: 'index' },
+        theme('ai-real-world'),
+        theme('ai-for-security'),
+        theme('security-for-ai'),
       ],
       customCss: [],
     }),

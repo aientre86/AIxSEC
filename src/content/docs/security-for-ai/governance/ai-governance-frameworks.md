@@ -1,7 +1,6 @@
----
+﻿---
 title: "Enterprise AI Governance Frameworks & Regulatory Alignment"
 description: "A strategic overview of operationalizing NIST AI RMF, ISO/IEC 42001, and the EU AI Act across the enterprise."
-pillar: "OG"
 tags: ["Compliance", "EU-AI-Act", "NIST-AI-RMF", "ISO-42001", "Governance"]
 threat_level: "Medium"
 date: 2026-03-31

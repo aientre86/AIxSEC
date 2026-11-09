@@ -1,6 +1,12 @@
---------------------------------------------------------------------------------
+---
+title: "Enterprise AI Planning & Governance Framework"
+description: "An operational roadmap for dependable AI adoption, secure SDLC, infrastructure lineage, and 7-step governance execution."
+tags: ["Governance", "AI-SDLC", "Dependable-AI", "AISPM", "Compliance"]
+threat_level: "High"
+date: 2026-11-09
+draft: false
+---
 
-#### title: "Enterprise AI Planning & Governance Framework" description: "An operational roadmap for dependable AI adoption, secure SDLC, infrastructure lineage, and 7-step governance execution." pillar: "OG" tags: ["Governance", "AI-SDLC", "Dependable-AI", "AISPM", "Compliance"] threat_level: "High" date: 2026-11-09 draft: false
 #### Overview
 Artificial Intelligence has transformed from experimental prototyping into core enterprise infrastructure. Integrating Generative AI and Agentic AI into operational workflows delivers immense efficiency gains, but it introduces non-deterministic, probabilistic risks that traditional IT controls cannot mitigate. Establishing a dependable AI deployment model requires aligning executive strategy, technical risk management, workforce enablement, and formal enterprise governance.
 

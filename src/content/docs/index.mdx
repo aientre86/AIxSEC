@@ -1,0 +1,69 @@
+---
+title: "AI & AI Security Knowledge Hub"
+description: "A structured knowledge hub covering AI for real-world use cases, AI for security defense, and security for AI systems."
+template: splash
+hero:
+  tagline: "Bridging real-world applied AI, defensive SecOps automation, and robust lifecycle security for foundational models."
+  actions:
+    - text: "Real-World Use Cases"
+      link: /AIxSEC/ai-real-world/
+      icon: right-arrow
+      variant: primary
+    - text: "AI for Security"
+      link: /AIxSEC/ai-for-security/
+      icon: right-arrow
+      variant: secondary
+    - text: "Security for AI"
+      link: /AIxSEC/security-for-ai/
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Explore by Theme
+
+<CardGrid stagger>
+  <Card title="1. AI for Real-World Use Cases" icon="rocket">
+    Explore how generative AI and agentic systems are deployed to solve high-impact enterprise problems.
+    
+    - **Productivity & Automation**: Autonomous agent patterns and workflow optimization.
+    - **Industry Solutions**: Applied AI in healthcare, finance, legal, and operations.
+    
+    [Explore Real-World Use Cases &rarr;](/AIxSEC/ai-real-world/)
+  </Card>
+
+  <Card title="2. AI for Security" icon="shield">
+    Leverage machine learning and autonomous agents as defensive force multipliers.
+    
+    - **Threat Hunting & Detection**: Identifying anomalies and adversarial signals.
+    - **SOC Automation**: Alert deduplication and triage acceleration.
+    - **Incident Response**: AI-assisted playbooks and post-incident timeline reconstruction.
+    
+    [Explore AI for Security &rarr;](/AIxSEC/ai-for-security/)
+  </Card>
+
+  <Card title="3. Security for AI" icon="warning">
+    Defend, harden, and govern the AI stack across its full lifecycle.
+    
+    - **Oversight & Governance**: EU AI Act, NIST AI RMF, and compliance baselines.
+    - **Secure Development**: Adversarial training, robust architectures, and data provenance.
+    - **Hardened Operations**: LLMOps API gateways, vector database protection, and inference monitoring.
+    - **Protection & Defenses**: Mitigating prompt injection, jailbreaking, and data poisoning.
+    
+    [Explore Security for AI &rarr;](/AIxSEC/security-for-ai/)
+  </Card>
+</CardGrid>
+
+---
+
+## Authoring & Adding Content
+
+Easily publish additional articles by creating Markdown (`.md`) or MDX (`.mdx`) documents within any subtheme directory:
+
+```bash
+# Example: Adding an article to a nested subtheme
+src/content/docs/ai-real-world/industry/healthcare/clinical-triage.md
+```
+
+The sidebar navigation auto-discovers and categorizes pages based on folder structure.

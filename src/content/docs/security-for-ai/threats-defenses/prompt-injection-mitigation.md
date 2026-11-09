@@ -1,7 +1,6 @@
----
+﻿---
 title: "Multi-Layer Prompt Injection Mitigation & Guardrails"
 description: "Comprehensive defenses against direct and indirect prompt injection attacks across LLM application layers."
-pillar: "PD"
 tags: ["Prompt-Injection", "Guardrails", "Red-Teaming", "Defense-in-Depth"]
 threat_level: "Critical"
 date: 2026-03-31

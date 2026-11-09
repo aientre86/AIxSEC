@@ -1,7 +1,6 @@
----
+﻿---
 title: "AI Security Incident Triage & Forensic Playbook"
 description: "Standard operating procedure for detecting, triaging, containing, and analyzing security incidents in AI systems."
-pillar: "IN"
 tags: ["Incident-Response", "AI-Forensics", "Auditability", "Triage", "Post-Mortem"]
 threat_level: "High"
 date: 2026-03-31

@@ -1,7 +1,6 @@
----
+﻿---
 title: "Securing Enterprise LLMOps & Inference API Gateways"
 description: "Hardening runtime inference endpoints, securing supply chain artifacts, and implementing fine-grained authorization for AI pipelines."
-pillar: "IO"
 tags: ["LLMOps", "API-Security", "Supply-Chain", "Inference", "Access-Control"]
 threat_level: "High"
 date: 2026-03-31
