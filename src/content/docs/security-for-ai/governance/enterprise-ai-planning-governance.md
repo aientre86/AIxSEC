@@ -1,5 +1,5 @@
 ---
-title: "A Non-Technical Guide to Enterprise AI Planning and Governance"
+title: "Enterprise AI Planning and Governance"
 description: "A clear, strategic guide for non-technical leaders and teams to safely adopt, govern, and supervise artificial intelligence across the organisation."
 pillar: "OG"
 tags:
