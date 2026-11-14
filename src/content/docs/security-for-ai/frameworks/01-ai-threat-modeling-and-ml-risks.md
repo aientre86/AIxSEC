@@ -16,7 +16,7 @@ draft: false
 
 Securing artificial intelligence and machine learning applications demands a fundamental shift from traditional software defense. Conventional application security operates on deterministic execution: static code produces predictable outputs for known inputs, and security boundaries are enforced through perimeter validation, rigid schemas, and access control lists. Modern AI systems, by contrast, are probabilistic, adaptive, and interconnected. They ingest unstructured data, generate dynamic completions, and increasingly exercise autonomous agency across backend APIs and operating system environments.
 
-Building upon the strategic governance principles outlined in *A Non-Technical Guide to Enterprise AI Planning and Governance*, technical threat modeling translates high-level risk tolerance into concrete engineering controls before code is committed or third-party weights are ingested.
+Building upon the strategic governance principles outlined in *Enterprise AI Planning and Governance*, technical threat modeling translates high-level risk tolerance into concrete engineering controls before code is committed or third-party weights are ingested.
 
 ### The Three Fundamental Threat Modeling Questions
 
