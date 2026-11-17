@@ -39,12 +39,8 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 - [Key Features](#-key-features)
 - [Broadcast Sections & MAS Compliance](#-broadcast-sections--mas-compliance)
 - [Repository Structure](#-repository-structure)
-- [Prerequisites & Stack](#-prerequisites--stack)
-- [Database Setup (Supabase pgvector)](#-database-setup-supabase-pgvector)
-- [Environment Configuration](#-environment-configuration)
-- [Local Installation & Execution](#-local-installation--execution)
 - [GitHub Actions Scheduled Automation](#-github-actions-scheduled-automation)
-- [Troubleshooting & FAQs](#-troubleshooting--faqs)
+
 
 ---
 
