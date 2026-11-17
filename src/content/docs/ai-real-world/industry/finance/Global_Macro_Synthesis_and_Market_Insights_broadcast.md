@@ -7,9 +7,9 @@ sidebar:
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 3
-pillar: ""
+pillar: "OG"
 tags:
-  - ""
+  - "AI-Real-World"
 threat_level: "Low"
 date: 2026-11-17
 draft: false
