@@ -27,6 +27,24 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 ![Sample Telegram Broadcasts](Images/Strategic_Asset_Implications.png)
 ![Sample Telegram Broadcasts](Images/outlook_and_takeaways.png)
 
+
+---
+
+import { Card } from '@astrojs/starlight/components';
+
+## 📡 Live Feed & Community
+
+<Card title="Join the Private Macro Telegram Channel" icon="telegram">
+  This micro-SaaS broadcasts automated real-time syntheses 3x daily before APAC, London, and US market opens.
+
+  **Interested in joining the private broadcast?**
+  
+  To keep discussion and signal quality high, access to the channel is private:
+  - 🔗 **Step 1:** Follow / connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile-url)
+  - 💬 **Step 2:** Send me a direct message with **"Macro Feed Access"**
+  - 📩 **Step 3:** I'll verify and reply with your personal Telegram invite link.
+</Card>
+
 ---
 
 ## 📑 Table of Contents
