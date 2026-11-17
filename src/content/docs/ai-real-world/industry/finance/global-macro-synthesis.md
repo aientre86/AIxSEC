@@ -75,8 +75,8 @@ flowchart TD
         H["Gemini 3.6 Flash Guardrail<br/>(Faithfulness & Hallucination Audit)"]
     end
 
-    subgraph DISTRIBUTION["4. Multi-Channel Syndication"]
-        I["Telegram VIP Paid Channel"]
+    subgraph DISTRIBUTION["4. Output"]
+        I["Telegram Channel"]
         J["Google Sheets Integration<br/>(NotebookLM Knowledge Ingestion)"]
         K["Audit Archive Database"]
     end
@@ -90,7 +90,6 @@ flowchart TD
     F --> G
     G --> H
     H -->|PASSED / Corrected| I
-    H -->|Freemium Hook| J
     H -->|Sanitized Rows| K
 ```
 
