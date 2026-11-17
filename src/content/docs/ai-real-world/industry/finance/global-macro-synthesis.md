@@ -38,7 +38,7 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 > 🔒 **Access is curated for busy professionals who invest, but lack the time to track global macroeconomics.**
 > 
 > To request an invitation:
-> 1. Connect with me on [LinkedIn (Your Profile Name)]([https://www.linkedin.com/in/weicheng-alan-ong-cissp-cism-gmle-gcfa-gaips-gcti-73435298/]).
+> 1. Follow / connect with me on [LinkedIn](https://www.linkedin.com/in/weicheng-alan-ong-cissp-cism-gmle-gcfa-gaips-gcti-73435298/)
 > 2. Send me a direct message with a brief note referencing **"AIxSEC - Daily Macro Telegram"**.
 > 3. I'll personally share the private channel invite link!
 ---
