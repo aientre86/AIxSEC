@@ -9,6 +9,7 @@
 // - A folder's `index.md` is shown first as "Overview".
 import fs from 'node:fs';
 import path from 'node:path';
+import { slug as githubSlug } from 'github-slugger';
 
 const DOCS = path.resolve('src/content/docs');
 
@@ -36,11 +37,15 @@ function readPage(file) {
   if (/^draft:\s*true/m.test(fm)) return null;
   const title = fm.match(/^title:\s*["']?(.*?)["']?\s*$/m)?.[1] ?? path.basename(file);
   const order = Number(fm.match(/^sidebar:[\s\S]*?^\s+order:\s*(-?\d+)/m)?.[1] ?? 999);
-  return { title, order };
+  const explicitSlug = fm.match(/^slug:\s*["']?(.*?)["']?\s*$/m)?.[1];
+  return { title, order, explicitSlug };
 }
 
-const toSlug = (abs) =>
-  path.relative(DOCS, abs).replace(/\\/g, '/').replace(/\.mdx?$/, '').replace(/(^|\/)index$/, '');
+const toSlug = (abs, explicitSlug) => {
+  if (explicitSlug) return explicitSlug;
+  const rel = path.relative(DOCS, abs).replace(/\\/g, '/').replace(/\.mdx?$/, '').replace(/(^|\/)index$/, '');
+  return rel.split('/').map((seg) => (seg ? githubSlug(seg) : '')).join('/');
+};
 
 function buildGroup(dir, { collapsed = true } = {}) {
   const meta = readMeta(dir);
@@ -51,7 +56,7 @@ function buildGroup(dir, { collapsed = true } = {}) {
     .map((e) => ({ abs: path.join(dir, e.name), ...readPage(path.join(dir, e.name)) }))
     .filter((p) => p.title)
     .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title))
-    .map((p) => ({ slug: toSlug(p.abs) }));
+    .map((p) => ({ slug: toSlug(p.abs, p.explicitSlug) }));
 
   const groups = entries
     .filter((e) => e.isDirectory())
