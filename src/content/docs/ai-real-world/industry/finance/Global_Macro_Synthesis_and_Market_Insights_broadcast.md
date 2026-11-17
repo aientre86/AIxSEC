@@ -9,7 +9,7 @@ tableOfContents:
   maxHeadingLevel: 3
 pillar: ""
 tags:
-  - "AI-Real-World"
+  - "Finance AI"
 threat_level: "Low"
 date: 2026-11-17
 draft: false
