@@ -20,14 +20,11 @@ draft: false
 
 An autonomous, macroeconomic intelligence pipeline. It continuously ingests latest RSS feeds from global central banks and tier-1 financial publishers, stores chunked content as high-dimensional vector embeddings in Supabase (`pgvector`), retrieves relevant historical context via RAG, synthesizes actionable market briefs via DeepSeek, and fact-checks candidate briefs with Google Gemini before broadcasting across Telegram channels and Google Sheets.
 
-
-<div style="display: flex; gap: 12px; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin: 1.5rem 0;">
-  <img src="./Images/US.png" alt="US" style="width: 30%; min-width: 200px; border-radius: 6px;" />
-  <img src="./Images/Europe.png" alt="Europe" style="width: 30%; min-width: 200px; border-radius: 6px;" />
-  <img src="./Images/APAC.png" alt="APAC" style="width: 30%; min-width: 200px; border-radius: 6px;" />
-</div>
-<img src="./Images/Strategic_Asset_Implications.png" alt="Sample Telegram Broadcast" style="max-width: 10%; height: auto;" />
-<img src="./Images/outlook_and_takeaways.png" alt="Sample Telegram Broadcast" style="max-width: 10%; height: auto;" />
+![Sample Telegram Broadcasts](Images/US.png)
+![Sample Telegram Broadcasts](Images/Europe.png)
+![Sample Telegram Broadcasts](Images/APAC.png)
+![Sample Telegram Broadcasts](Images/Strategic_Asset_Implications.png)
+![Sample Telegram Broadcasts](Images/outlook_and_takeaways.png)
 
 ---
 
