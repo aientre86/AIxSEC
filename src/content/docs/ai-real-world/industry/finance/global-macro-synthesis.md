@@ -30,7 +30,7 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 
 ## 📡 Access the Live Intelligence Feed
 
-> ###!TIP
+> ### !TIP
 > ### Want Real-Time Daily Macro Insights?
 > This automated intelligence synthesis runs live 3x daily across APAC, London, and US market opens and broadcasts directly to a private Telegram channel.
 >
