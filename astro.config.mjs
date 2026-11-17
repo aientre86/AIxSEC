@@ -13,6 +13,19 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'AI&SEC',
+       head: [
+        {
+          tag: 'script',
+          attrs: {
+            type: 'module',
+            src: '/AIxSEC/scripts/mermaid.js', // or bundled path
+          },
+        },
+      ],
+      // ...
+    }),
+  ],
+});
       logo: {
         src: './src/assets/logo.svg',
       },
