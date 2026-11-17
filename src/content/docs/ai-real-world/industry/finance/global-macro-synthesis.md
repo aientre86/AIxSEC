@@ -17,11 +17,11 @@ draft: false
 
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An autonomous, macroeconomic intelligence pipeline. It continuously ingests latest RSS feeds from global central banks and tier-1 financial publishers, stores chunked content as high-dimensional vector embeddings in Supabase (`pgvector`), retrieves relevant historical context via RAG, synthesizes actionable market briefs via DeepSeek, and fact-checks candidate briefs with Google Gemini before broadcasting across Telegram channels and Google Sheets.
 
 ![Sample Telegram Broadcasts](Images/US.png)
+<img src="./Images/US.png" alt="Sample Telegram Broadcast" style="max-width: 60%; height: auto;" />
 ![Sample Telegram Broadcasts](Images/Europe.png)
 ![Sample Telegram Broadcasts](Images/APAC.png)
 ![Sample Telegram Broadcasts](Images/Strategic_Asset_Implications.png)
@@ -163,7 +163,3 @@ The broadcast runs three times daily aligned with key global financial market op
 | `00:00 UTC` | 08:00 AM SGT | APAC & Singapore Cash Market Open |
 | `07:00 UTC` | 03:00 PM SGT | London & European Market Open |
 | `13:00 UTC` | 09:00 PM SGT | US Wall Street Pre-Market & Data Release |
-
-## 📜 License
-
-Distributed under the [MIT License](LICENSE). Produced for quantitative research and automated macroeconomic intelligence workflows.
