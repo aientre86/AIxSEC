@@ -2,7 +2,7 @@
 title: "Global_Macro_Synthesis_and_Market_Insights_broadcast MicroSaaS"
 description: "An autonomous, macroeconomic intelligence pipeline. It continuously ingests latest RSS feeds from global central banks and tier-1 financial publishers, stores chunked content as high-dimensional vector embeddings in Supabase (`pgvector`), retrieves relevant historical context via RAG, synthesizes actionable market briefs via DeepSeek, and fact-checks candidate briefs with Google Gemini before broadcasting across Telegram channels and Google Sheets."
 sidebar:
-  label: "ai-real-world-Finance-MicroSaaS"
+  label: "Global Macro Synthesis"
   order: 5
 tableOfContents:
   minHeadingLevel: 2
