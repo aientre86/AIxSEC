@@ -27,24 +27,20 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 ![Sample Telegram Broadcasts](Images/Strategic_Asset_Implications.png)
 ![Sample Telegram Broadcasts](Images/outlook_and_takeaways.png)
 
-
 ---
 
-import { Card } from '@astrojs/starlight/components';
+## 📡 Access the Live Intelligence Feed
 
-## 📡 Live Feed & Community
-
-<Card title="Join the Private Macro Telegram Channel" icon="telegram">
-  This micro-SaaS broadcasts automated real-time syntheses 3x daily before APAC, London, and US market opens.
-
-  **Interested in joining the private broadcast?**
-  
-  To keep discussion and signal quality high, access to the channel is private:
-  - 🔗 **Step 1:** Follow / connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile-url)
-  - 💬 **Step 2:** Send me a direct message with **"Macro Feed Access"**
-  - 📩 **Step 3:** I'll verify and reply with your personal Telegram invite link.
-</Card>
-
+> [!TIP]
+> ### Want Real-Time Daily Macro Insights?
+> This automated intelligence synthesis runs live 3x daily across APAC, London, and US market opens and broadcasts directly to a private Telegram channel.
+>
+> 🔒 **Access is curated for busy professionals who invest, but lack the time to track global macroeconomics.**
+> 
+> To request an invitation:
+> 1. Connect with me on [LinkedIn (Your Profile Name)]([https://www.linkedin.com/in/your-profile-url](https://www.linkedin.com/in/weicheng-alan-ong-cissp-cism-gmle-gcfa-gaips-gcti-73435298/)).
+> 2. Send me a direct message with a brief note referencing **"AIxSEC - Daily Macro Telegram"**.
+> 3. I'll personally share the private channel invite link!
 ---
 
 ## 📑 Table of Contents
