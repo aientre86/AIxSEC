@@ -41,7 +41,6 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 - [Repository Structure](#-repository-structure)
 - [GitHub Actions Scheduled Automation](#-github-actions-scheduled-automation)
 
-
 ---
 
 ## 🏛 System Architecture
