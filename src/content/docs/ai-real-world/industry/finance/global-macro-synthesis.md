@@ -76,8 +76,9 @@ flowchart TD
     end
 
     subgraph DISTRIBUTION["4. Multi-Channel Syndication"]
-        I["Telegram VIP Paid Channel<br/>"]
+        I["Telegram VIP Paid Channel"]
         J["Google Sheets Integration<br/>(NotebookLM Knowledge Ingestion)"]
+        K["Audit Archive Database"]
     end
 
     INGESTION --> B
