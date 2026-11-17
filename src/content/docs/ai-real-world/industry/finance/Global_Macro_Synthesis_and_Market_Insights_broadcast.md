@@ -7,7 +7,7 @@ sidebar:
 tableOfContents:
   minHeadingLevel: 2
   maxHeadingLevel: 3
-pillar:""
+pillar: ""
 tags:
   - ""
 threat_level: ""
