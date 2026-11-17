@@ -5,27 +5,20 @@ import { theme } from './sidebar.mjs';
 // https://astro.build/config
 export default defineConfig({
   // GitHub Pages base URL compatibility:
-  // Replace <username> and <repo-name> with your GitHub username and repository name.
-  // If hosted at the root domain (e.g., https://username.github.io), set site accordingly and leave base undefined.
-  // If hosted under a repository subpath (e.g., https://username.github.io/ai-security-hub/), set base: '/ai-security-hub/'.
   site: 'https://aientre86.github.io',
   base: '/AIxSEC',
   integrations: [
     starlight({
       title: 'AI&SEC',
-       head: [
+      head: [
         {
           tag: 'script',
           attrs: {
             type: 'module',
-            src: '/AIxSEC/scripts/mermaid.js', // or bundled path
+            src: '/AIxSEC/scripts/mermaid.js',
           },
         },
       ],
-      // ...
-    }),
-  ],
-});
       logo: {
         src: './src/assets/logo.svg',
       },
