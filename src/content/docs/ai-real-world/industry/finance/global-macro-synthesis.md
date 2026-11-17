@@ -1,5 +1,5 @@
 ---
-title: "Global_Macro_Synthesis_and_Market_Insights_broadcast MicroSaaS"
+title: "🌐 Global Macro Synthesis and Market Insights_broadcast MicroSaaS"
 description: "An autonomous, macroeconomic intelligence pipeline. It continuously ingests latest RSS feeds from global central banks and tier-1 financial publishers, stores chunked content as high-dimensional vector embeddings in Supabase (`pgvector`), retrieves relevant historical context via RAG, synthesizes actionable market briefs via DeepSeek, and fact-checks candidate briefs with Google Gemini before broadcasting across Telegram channels and Google Sheets."
 sidebar:
   label: "Global Macro Synthesis"
@@ -16,10 +16,6 @@ draft: false
 ---
 
 
-
-# 🌐 Global Macro Brief & Market Insights Broadcast
-
-[![Automated Macro Broadcast](https://github.com/aientre86/market-insights-broadcast/actions/workflows/schedule.yml/badge.svg)](https://github.com/aientre86/market-insights-broadcast/actions/workflows/schedule.yml)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
