@@ -22,10 +22,10 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 
 
 <img src="./Images/US.png" alt="Sample Telegram Broadcast" style="max-width: 10%; height: auto;" />
-![Sample Telegram Broadcasts](Images/Europe.png)
-![Sample Telegram Broadcasts](Images/APAC.png)
-![Sample Telegram Broadcasts](Images/Strategic_Asset_Implications.png)
-![Sample Telegram Broadcasts](Images/outlook_and_takeaways.png)
+<img src="./Images/Europe.png" alt="Sample Telegram Broadcast" style="max-width: 10%; height: auto;" />
+<img src="./Images/APAC.png" alt="Sample Telegram Broadcast" style="max-width: 10%; height: auto;" />
+<img src="./Images/Strategic_Asset_Implications.png" alt="Sample Telegram Broadcast" style="max-width: 10%; height: auto;" />
+<img src="./Images/outlook_and_takeaways.png" alt="Sample Telegram Broadcast" style="max-width: 10%; height: auto;" />
 
 ---
 
