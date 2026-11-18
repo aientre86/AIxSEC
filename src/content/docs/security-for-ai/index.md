@@ -8,17 +8,16 @@ draft: false
 
 # Security for AI
 
-**Security for AI** addresses the unique attack surface introduced by foundational models, agentic systems, and MLOps infrastructure.
+**Security for AI** shares guides and resources to addresses the unique attack surface introduced by foundational models, agentic systems, and MLOps infrastructure.
 
 ## Core Focus Areas
 
-- **Governance & Compliance**: Aligning with the EU AI Act, NIST AI RMF, ISO 42001, and organizational risk frameworks.
-- **Secure Development**: Adversarial training, data sanitization, model signing, and supply chain provenance.
-- **Operations & MLOps**: Hardening API gateways, vector database access controls, rate limiting, and telemetry.
-- **Threats & Defenses**: Defending against prompt injection, model inversion, jailbreaking, and data poisoning.
+- **Oversight & Governance**: Enterprise AI Planning and Governance, with more to come.
+- **AI Security Frameworks**: OWASP LLM Top 10, OWASP ASI, MITRE ATLAS and more.
+- **AI Security Tools**: AI Security Tools Catalog, with more to come.
+- **Secure Development**: Coming soon.
 
 ---
 
 ### In This Section
-
-Explore the technical playbooks, architecture patterns, and defense guides in the sidebar navigation.
+Explore the guides and resources in the sidebar navigation.
