@@ -8,7 +8,7 @@ draft: false
 
 # Security for AI
 
-**Security for AI** shares guides and resources to addresses the unique attack surface introduced by foundational models, agentic systems, and MLOps infrastructure.
+**Security for AI** focuses on guides and resources to addresses the unique attack surface introduced by foundational models, agentic systems, and MLOps infrastructure.
 
 ## Core Focus Areas
 
