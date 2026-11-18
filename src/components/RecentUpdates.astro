@@ -1,0 +1,241 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  count?: number;
+}
+
+const { count = 4 } = Astro.props;
+
+// Fetch all documentation entries
+const allDocs = await getCollection('docs');
+
+// Filter out root index and section overviews
+const contentArticles = allDocs.filter((entry) => {
+  const id = entry.id.replace(/\\/g, '/');
+  return id !== 'index.mdx' && !id.endsWith('/index.md') && !entry.data.draft;
+});
+
+// Helper to extract or infer date
+function getEntryDate(entry: any): Date {
+  if (entry.data.date) {
+    return new Date(entry.data.date);
+  }
+  return new Date(0);
+}
+
+// Map pillar/theme category from path
+function getCategory(id: string): { label: string; color: string } {
+  if (id.startsWith('ai-real-world')) {
+    return { label: 'AI Real-World', color: '#10b981' };
+  }
+  if (id.startsWith('ai-for-security')) {
+    return { label: 'AI for Security', color: '#3b82f6' };
+  }
+  if (id.startsWith('security-for-ai')) {
+    return { label: 'Security for AI', color: '#8b5cf6' };
+  }
+  return { label: 'Knowledge Hub', color: '#6b7280' };
+}
+
+// Format date nicely
+function formatDate(date: Date): string {
+  if (date.getTime() === 0) return 'Recent';
+  return date.toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
+
+// Sort newest first
+const sorted = contentArticles
+  .sort((a, b) => getEntryDate(b).getTime() - getEntryDate(a).getTime())
+  .slice(0, count);
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<div class="recent-updates-container">
+  <div class="recent-updates-header">
+    <div class="live-pulse-wrapper">
+      <span class="live-pulse-dot"></span>
+      <span class="live-status-text">Continuous Updates</span>
+    </div>
+    <span class="recent-count-tag">{sorted.length} Latest Dispatches</span>
+  </div>
+
+  <div class="recent-articles-grid">
+    {sorted.map((item) => {
+      const category = getCategory(item.id);
+      const dateStr = formatDate(getEntryDate(item));
+      const targetSlug = item.slug || item.id.replace(/\.mdx?$/, '').replace(/\/index$/, '');
+      const href = `${base}/${targetSlug}/`;
+
+      return (
+        <a href={href} class="recent-article-card">
+          <div class="card-meta-row">
+            <span class="category-pill" style={`--cat-color: ${category.color}`}>
+              {category.label}
+            </span>
+            <span class="date-text">{dateStr}</span>
+          </div>
+
+          <div class="card-title-text">{item.data.title}</div>
+
+          {item.data.description && (
+            <p class="card-desc-text">{item.data.description}</p>
+          )}
+
+          <div class="card-footer-cta">
+            <span>Read dispatch</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</div>
+
+<style>
+  .recent-updates-container {
+    margin: 2.5rem 0 3.5rem 0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: var(--sl-color-gray-6);
+    border: 1px solid var(--sl-color-gray-5);
+  }
+
+  .recent-updates-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--sl-color-gray-5);
+  }
+
+  .live-pulse-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .live-pulse-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #10b981;
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    }
+  }
+
+  .live-status-text {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--sl-color-gray-2);
+  }
+
+  .recent-count-tag {
+    font-size: 0.8rem;
+    color: var(--sl-color-gray-3);
+  }
+
+  .recent-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .recent-article-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem;
+    background: var(--sl-color-bg);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .recent-article-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--sl-color-accent);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  }
+
+  .card-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.6rem;
+  }
+
+  .category-pill {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: var(--cat-color);
+    background: color-mix(in srgb, var(--cat-color) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--cat-color) 30%, transparent);
+  }
+
+  .date-text {
+    font-size: 0.78rem;
+    color: var(--sl-color-gray-3);
+  }
+
+  .card-title-text {
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--sl-color-white);
+    line-height: 1.35;
+    margin-bottom: 0.4rem;
+  }
+
+  .recent-article-card:hover .card-title-text {
+    color: var(--sl-color-accent-high);
+  }
+
+  .card-desc-text {
+    font-size: 0.83rem;
+    color: var(--sl-color-gray-3);
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0 0 0.8rem 0;
+  }
+
+  .card-footer-cta {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--sl-color-accent);
+  }
+</style>

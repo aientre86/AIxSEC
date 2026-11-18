@@ -10,6 +10,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'AI&SEC',
+      lastUpdated: true,
       head: [
         {
           tag: 'script',
