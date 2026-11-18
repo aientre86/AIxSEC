@@ -28,6 +28,17 @@ Designed as a zero-maintenance MicroSaaS with free tier infrastructure services 
 ![Sample Telegram Broadcasts](Images/Infrastructure_Risk.png)
 ![Sample Telegram Broadcasts](Images/Defensive_Outlook.png)
 
+> ### !TIP
+> ### Want Real-Time Daily Global Cyber Threat Intelligence Insights?
+> This automated global cyber threat intelligence synthesis runs live daily and broadcasts directly to a private Telegram channel.
+>
+> 🔒 **"Curated daily threat intelligence for rapid awareness of the latest global cyber threats.**
+> 
+> To request an access:
+> 1. Follow / connect with me on [LinkedIn](https://www.linkedin.com/in/weicheng-alan-ong-cissp-cism-gmle-gcfa-gaips-gcti-73435298)
+> 2. Send me a direct message with a brief note referencing **"AIxSEC - Daily CTI Telegram"**.
+> 3. I'll personally share the private channel invite link!
+
 ---
 
 ## 🌟 Key Features
