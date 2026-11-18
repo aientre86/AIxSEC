@@ -17,7 +17,7 @@ draft: false
 
 Leveraging Local LLMs for Offline, Cybersecurity Triage.
 
-See code in (https://github.com/cyberanalyst86/AI-Assisted-Unix-Artifact-Analyzer-POC)
+See code in [GitHub Repo](https://github.com/cyberanalyst86/AI-Assisted-Unix-Artifact-Analyzer-POC)
 
 ---
 
