@@ -1,8 +1,8 @@
 ---
-title: "🌐 Global Macro Synthesis and Market Insights_broadcast MicroSaaS"
+title: "🌐 Daily AI Synthesized Global Macro and Market Insights Broadcast"
 description: "An autonomous, macroeconomic intelligence pipeline. It continuously ingests latest RSS feeds from global central banks and tier-1 financial publishers, stores chunked content as high-dimensional vector embeddings in Supabase (`pgvector`), retrieves relevant historical context via RAG, synthesizes actionable market briefs via DeepSeek, and fact-checks candidate briefs with Google Gemini before broadcasting across Telegram channels and Google Sheets."
 sidebar:
-  label: "Global Macro Synthesis"
+  label: "Daily AI Synthesized Global Macro and Market Insights Broadcast"
   order: 5
 tableOfContents:
   minHeadingLevel: 2
@@ -34,9 +34,9 @@ An autonomous, macroeconomic intelligence pipeline. It continuously ingests late
 > ### Want Real-Time Daily Macro Insights?
 > This automated intelligence synthesis runs live 3x daily across APAC, London, and US market opens and broadcasts directly to a private Telegram channel.
 >
-> 🔒 **Access is curated for busy professionals who invest, but lack the time to track global macroeconomics.**
+> 🔒 **Daily macro insights are curated for busy professionals who invest, but lack the time to track global macroeconomics.**
 > 
-> To request an invitation:
+> To request an access:
 > 1. Follow / connect with me on [LinkedIn](https://www.linkedin.com/in/weicheng-alan-ong-cissp-cism-gmle-gcfa-gaips-gcti-73435298)
 > 2. Send me a direct message with a brief note referencing **"AIxSEC - Daily Macro Telegram"**.
 > 3. I'll personally share the private channel invite link!
