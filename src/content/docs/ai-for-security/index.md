@@ -8,16 +8,16 @@ draft: false
 
 # AI for Security
 
-**AI for Security** focuses on leveraging machine learning and generative AI as defensive force multipliers to outpace modern threat actors.
+**AI for Security** focuses on leveraging machine learning and generative AI as defensive force multipliers for cybersecurity applications.
 
 ## Core Focus Areas
 
-- **Threat Detection**: Behavioral anomaly detection, endpoint telemetry analysis, and novel zero-day signal recognition.
-- **SOC Automation**: Autonomous alert deduplication, contextual enrichment, and LLM-assisted tier-1 triage.
-- **Incident Response**: Dynamic playbook generation, timeline reconstruction, and automated root cause analysis.
+ - **Cyber Threat Intelligence**: Daily AI Synthesized Cyber Threat Landscape, with more to come.
+ - **Threat Hunting & Detection**: A Proof-of-Concept on AI-Assisted Unix Artifact Analyzer, with more to come
+ - **Incident Response**: Coming soon.
 
 ---
 
 ### In This Section
 
-Browse through the subthemes in the navigation sidebar to explore implementation guides, architectures, and SecOps workflows.
+Browse through the subthemes in the navigation sidebar to explore AI implementation use cases.
