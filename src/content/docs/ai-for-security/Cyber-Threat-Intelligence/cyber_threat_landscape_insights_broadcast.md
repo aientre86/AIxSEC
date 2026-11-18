@@ -22,11 +22,11 @@ An automated, AI-augmented Cyber Threat Intelligence (CTI) pipeline that aggrega
 Designed as a zero-maintenance MicroSaaS with free tier infrastructure services (e.g. supabase), executed serverlessly on a daily schedule via GitHub Actions.
 
 ![Sample Telegram Broadcasts](Images/Global.png)
-![Sample Telegram Broadcasts](Images/ransomware_darkweb.png)
+![Sample Telegram Broadcasts](Images/Ransomware_Darkweb.png)
 ![Sample Telegram Broadcasts](Images/AI_Driven.png)
 ![Sample Telegram Broadcasts](Images/Novel_TTP.png)
-![Sample Telegram Broadcasts](Images/infrastructure_risk.png)
-![Sample Telegram Broadcasts](Images/Defensive_outlook.png)
+![Sample Telegram Broadcasts](Images/Infrastructure_Risk.png)
+![Sample Telegram Broadcasts](Images/Defensive_Outlook.png)
 
 ---
 
