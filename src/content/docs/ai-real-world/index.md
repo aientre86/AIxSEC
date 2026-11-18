@@ -8,21 +8,12 @@ draft: false
 
 # AI for Real-World Use Cases
 
-Welcome to the **AI for Real-World Use Cases** section. This theme explores tangible, production-ready AI applications that deliver measurable value across enterprises, workflow automation, and specialized industry sectors.
+Welcome to the **AI for Real-World Use Cases** section. This theme explores tangible, production-ready AI applications and use cases.
 
 ## Subthemes & Coverage
 
-- **Productivity & Automation**: Agentic workflows, document processing, intelligent assistants, and knowledge synthesis.
-- **Industry Applications**:
-  - **Healthcare**: Clinical triage support, imaging analysis, diagnostics, and patient record synthesis.
-  - **Finance**: Algorithmic risk modeling, fraud detection, automated compliance, and credit assessment.
+- **Industry Solutions**: AI-powered Finance MicroSaaS, with more to come.
+- **Productivity & Automation**: Coming soon.. 
 
 ---
 
-### How to Add Content
-
-To publish a new guide, create a `.md` or `.mdx` file within the desired subfolder:
-```bash
-src/content/docs/ai-real-world/<subtheme>/<your-article-slug>.md
-```
-Frontmatter requires only `title` and `description`.
